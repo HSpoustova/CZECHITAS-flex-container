@@ -1,6 +1,16 @@
 /*Tady piš svůj kód*/
 
 /*-------------*/
+
+
+
+.content {
+
+  display: flex;
+  flex-direction: row;
+
+}
+
 *,
 :before,
 :after {
@@ -8,6 +18,7 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   color: #2c3e66;
@@ -16,12 +27,21 @@ body {
 
 .layout {
   min-height: 100vh;
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar {
   background-color: #f2f3ff;
   padding: 0.5rem;
   box-shadow: 1px 0px 8px #c2d1dd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+
+
 }
 
 a {
